@@ -10,7 +10,7 @@ This Python application lets you **chat with the contents of PDF files** using a
 - **Interactive Web UI**: Gradio-powered chatbot interface with a “Clear Chat” button and real-time Q&A.
 - **Shareable**: Option to share your Gradio app publicly.
 
-  ## 🛠 How It Works
+## 🛠 How It Works
 1. PDFs are loaded using **PyMuPDFLoader** from LangChain.
 2. The text is split into overlapping chunks with `CharacterTextSplitter`.
 3. **OpenAI embeddings** are generated and stored in **Chroma** (local persistent DB).
