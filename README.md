@@ -24,7 +24,7 @@ This Python application lets you **chat with the contents of PDF files** using a
 - chat_history.json # Saved chat history
 - pdf_rag_chatbot_gradio.py # Main app script
 
-  ## ▶️ Usage
+## ▶️ Usage
 ```bash
 pip install -r requirements.txt
 python pdf_rag_chatbot_gradio.py
