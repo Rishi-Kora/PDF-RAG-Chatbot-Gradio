@@ -33,8 +33,4 @@ python pdf_rag_chatbot_gradio.py
 Feel free to open an issue or reach out to me at korarishi@gmail.com.
 
 ## License
-This project is licensed under the MIT License. See LICENSE [https://github.com/Rishi-Kora/PDF-RAG-Chatbot-Gradio/blob/main/LICENSE] for details. `
-
-
-
-
+This project is licensed under the MIT License. See LICENSE for details.
