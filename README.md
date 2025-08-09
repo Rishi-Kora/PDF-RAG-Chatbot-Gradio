@@ -29,6 +29,11 @@ This Python application lets you **chat with the contents of PDF files** using a
 pip install -r requirements.txt
 python pdf_rag_chatbot_gradio.py
 ```
+## Contact
+Feel free to open an issue or reach out to me at [korarishi@gmail.com].
+
+## License
+This project is licensed under the MIT License. See [LICENSE] for details. `
 
 
 
