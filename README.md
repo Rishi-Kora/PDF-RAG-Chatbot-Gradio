@@ -21,8 +21,8 @@ This Python application lets you **chat with the contents of PDF files** using a
 ## Project Structure
 - PDFs # Folder containing your PDF files
 - key.env # Environment variables (e.g., OpenAI API key)
-- chat_history.json # Saved chat history
-- pdf_rag_chatbot_gradio.py # Main app script
+- chat_history.json 
+- pdf_rag_chatbot_gradio.py 
 
 ## Usage
 ```bash
