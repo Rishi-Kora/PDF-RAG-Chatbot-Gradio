@@ -18,7 +18,7 @@ This Python application lets you **chat with the contents of PDF files** using a
 5. User queries are matched to relevant PDF sections and answered.
 6. Gradio serves an easy-to-use chat interface.
 
-## 📂 Project Structure
+## Project Structure
 - PDFs # Folder containing your PDF files
 - key.env # Environment variables (e.g., OpenAI API key)
 - chat_history.json # Saved chat history
