@@ -1,7 +1,7 @@
 # PDF-RAG-Chatbot-Gradio
 This Python application lets you **chat with the contents of PDF files** using a **Retrieval-Augmented Generation (RAG)** pipeline powered by **LangChain**, **OpenAI embeddings**, and a **Gradio web interface**.
 
-## 🚀 Features
+## Features
 - **Automatic PDF ingestion**: Loads all `.pdf` files from the `PDFs` folder.
 - **Chunking & Embeddings**: Splits documents into manageable chunks and generates embeddings with OpenAI.
 - **Vector Search with Chroma**: Stores embeddings in a persistent ChromaDB for fast retrieval.
@@ -10,7 +10,7 @@ This Python application lets you **chat with the contents of PDF files** using a
 - **Interactive Web UI**: Gradio-powered chatbot interface with a “Clear Chat” button and real-time Q&A.
 - **Shareable**: Option to share your Gradio app publicly.
 
-## 🛠 How It Works
+## How It Works
 1. PDFs are loaded using **PyMuPDFLoader** from LangChain.
 2. The text is split into overlapping chunks with `CharacterTextSplitter`.
 3. **OpenAI embeddings** are generated and stored in **Chroma** (local persistent DB).
@@ -24,7 +24,7 @@ This Python application lets you **chat with the contents of PDF files** using a
 - chat_history.json # Saved chat history
 - pdf_rag_chatbot_gradio.py # Main app script
 
-## ▶️ Usage
+## Usage
 ```bash
 pip install -r requirements.txt
 python pdf_rag_chatbot_gradio.py
